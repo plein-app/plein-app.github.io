@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — Plein</title>
+<style>
+:root{--accent:#FF5C00;--ink:#1a1a1a;--muted:#666;--line:#ececec}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);line-height:1.65;background:#fff}
+.wrap{max-width:760px;margin:0 auto;padding:44px 22px 90px}
+.logo{font-weight:800;font-size:20px;letter-spacing:-.02em}
+.logo a{color:inherit;text-decoration:none}
+.logo .dot{color:var(--accent)}
+h1{font-size:29px;line-height:1.2;letter-spacing:-.02em;margin:22px 0 6px}
+.updated{color:var(--muted);font-size:14px;margin-bottom:26px}
+h2{font-size:19px;margin:34px 0 10px}
+h2 .num{color:var(--accent);margin-right:8px}
+p,li{font-size:16px}
+ul{padding-left:22px}
+li{margin:6px 0}
+a{color:var(--accent)}
+.lead{font-size:17px;color:#333}
+.card{background:#fff7f2;border:1px solid #ffd9c2;border-radius:14px;padding:14px 18px;margin:22px 0}
+footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="logo"><a href="/">Plein<span class="dot">.</span></a></div>
+  <h1>Politique de confidentialité</h1>
+  <div class="updated">Dernière mise à jour : 4 juin 2026</div>
+
+  <p class="lead">Plein est une application iOS de suivi des dépenses de carburant et d'entretien de véhicules. La protection de votre vie privée est au cœur de sa conception : la quasi-totalité de vos données reste sur votre appareil et dans votre iCloud personnel. Cette politique explique quelles données sont traitées, pourquoi, et avec qui.</p>
+
+  <div class="card">
+    <strong>L'essentiel :</strong> pas de compte, pas de mesure d'audience, pas de publicité, pas de pistage. Vos données vous appartiennent et restent dans votre espace Apple iCloud privé — l'éditeur de Plein n'y a pas accès.
+  </div>
+
+  <h2><span class="num">1.</span>Vos données vous appartiennent</h2>
+  <p>Plein ne dispose d'aucun serveur central stockant vos informations personnelles et ne crée aucun compte utilisateur. Vos véhicules, pleins, dépenses, trajets, rappels et photos sont enregistrés localement sur votre appareil et synchronisés, si vous le souhaitez, via votre compte iCloud privé (Apple CloudKit). L'éditeur de Plein n'a pas accès à ces données.</p>
+
+  <h2><span class="num">2.</span>Données traitées</h2>
+  <ul>
+    <li><strong>Données que vous saisissez :</strong> informations sur vos véhicules (marque, modèle, année, immatriculation, type de carburant, puissance fiscale, kilométrage), vos pleins (date, quantité, prix, station), vos dépenses (entretien, assurance, etc.), vos rappels et vos trajets.</li>
+    <li><strong>Photos :</strong> si vous l'autorisez, les photos de tickets et de factures que vous joignez. Elles restent sur votre appareil et dans votre iCloud ; elles ne sont jamais envoyées à un tiers.</li>
+    <li><strong>Localisation :</strong> votre position précise (GPS) est utilisée pour (a) trouver les stations-service proches et (b) enregistrer vos trajets, y compris en arrière-plan pendant un trajet en cours. Vos positions restent sur votre appareil et dans votre iCloud. Pour la recherche de prix, seules des coordonnées approximatives sont transmises aux API publiques de prix (voir §4) afin de renvoyer les stations à proximité ; elles ne servent pas à vous profiler.</li>
+    <li><strong>Abonnement :</strong> la gestion de l'abonnement Premium est assurée par RevenueCat (voir §4), qui traite l'état de votre abonnement, vos achats et un identifiant anonyme attribué par l'application. Aucun nom ni adresse e-mail ne lui est transmis par Plein.</li>
+  </ul>
+
+  <h2><span class="num">3.</span>Ce que nous ne faisons pas</h2>
+  <ul>
+    <li>Aucune mesure d'audience ni outil d'analyse (« analytics »).</li>
+    <li>Aucun traceur publicitaire et aucune publicité.</li>
+    <li>Aucun rapport de plantage envoyé à un tiers.</li>
+    <li>Aucun suivi entre applications ou sites web.</li>
+    <li>Aucune collecte d'e-mail, de mot de passe ou de coordonnées.</li>
+  </ul>
+
+  <h2><span class="num">4.</span>Destinataires et sous-traitants</h2>
+  <p>Plein s'appuie sur un nombre limité de services :</p>
+  <ul>
+    <li><strong>Apple (iCloud / CloudKit)</strong> — stockage et synchronisation de vos données dans votre espace iCloud privé.</li>
+    <li><strong>RevenueCat, Inc.</strong> (États-Unis) — gestion des abonnements (état d'abonnement, achats, identifiant anonyme).</li>
+    <li><strong>Google (Gemini)</strong>, via notre serveur hébergé chez Cloudflare — uniquement lorsque la lecture d'un ticket sur l'appareil est incomplète et que vous n'avez pas désactivé l'option dans les Réglages : seul le <em>texte</em> lu sur le ticket est transmis pour en extraire les informations (date, montant, station…). La photo du ticket n'est jamais envoyée.</li>
+    <li><strong>API publiques de prix des carburants :</strong> data.economie.gouv.fr (France), MITECO (Espagne), MIMIT (Italie), E-Control (Autriche), Tankerkönig (Allemagne), GOV.UK (Royaume-Uni) et sources publiques (Luxembourg) — reçoivent une position approximative pour renvoyer les prix à proximité.</li>
+    <li><strong>ADEME</strong> (France) — base publique consultée avec la marque, le modèle et l'année d'un véhicule pour pré-remplir sa consommation officielle.</li>
+  </ul>
+
+  <h2><span class="num">5.</span>Transferts hors Union européenne</h2>
+  <p>Certains sous-traitants (RevenueCat, Google) sont situés aux États-Unis. Les données concernées (état d'abonnement ; texte d'un ticket le cas échéant) y sont traitées dans ce cadre.</p>
+
+  <h2><span class="num">6.</span>Autorisations demandées</h2>
+  <ul>
+    <li><strong>Appareil photo</strong> — scanner les tickets de carburant et factures d'entretien.</li>
+    <li><strong>Photos</strong> — joindre des images depuis votre photothèque.</li>
+    <li><strong>Localisation (à l'utilisation et en arrière-plan)</strong> — stations proches et détection/enregistrement des trajets.</li>
+    <li><strong>Mouvement</strong> — déclencher la détection de trajet uniquement lorsque vous conduisez (économie de batterie).</li>
+  </ul>
+  <p>Vous pouvez révoquer ces autorisations à tout moment dans les Réglages iOS.</p>
+
+  <h2><span class="num">7.</span>Durée de conservation</h2>
+  <p>Vos données sont conservées tant que vous les gardez dans l'application. Vous pouvez les supprimer à tout moment — individuellement dans l'app, ou en totalité en supprimant l'application et la copie iCloud associée.</p>
+
+  <h2><span class="num">8.</span>Vos droits (RGPD)</h2>
+  <p>Conformément au RGPD, vous disposez des droits d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité. La plupart s'exercent directement dans l'application, où vous pouvez consulter, modifier et supprimer vos données. Pour toute demande complémentaire : <a href="mailto:enis.1789@gmail.com">enis.1789@gmail.com</a>. Vous pouvez également introduire une réclamation auprès de la CNIL (<a href="https://www.cnil.fr">www.cnil.fr</a>).</p>
+
+  <h2><span class="num">9.</span>Enfants</h2>
+  <p>Plein n'est pas destinée aux personnes de moins de 15 ans et ne collecte pas sciemment leurs données.</p>
+
+  <h2><span class="num">10.</span>Paiements</h2>
+  <p>Les abonnements sont achetés et facturés par l'App Store d'Apple. Plein ne reçoit ni ne traite aucune donnée de carte bancaire.</p>
+
+  <h2><span class="num">11.</span>Modifications</h2>
+  <p>Cette politique peut être mise à jour ; la date de dernière mise à jour figure en haut de page.</p>
+
+  <footer>
+    Pour toute question relative à vos données : <a href="mailto:enis.1789@gmail.com">enis.1789@gmail.com</a>
+  </footer>
+</div>
+</body>
+</html>
