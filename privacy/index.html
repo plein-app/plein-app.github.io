@@ -28,54 +28,33 @@ footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);color:v
 <body>
 <div class="wrap">
   <div class="logo"><a href="/">Plein<span class="dot">.</span></a></div>
-  <h1>Politique de confidentialité</h1>
-  <div class="updated">Dernière mise à jour : 4 juin 2026</div>
-
-  <p class="lead">Voici, en clair, ce que Plein fait avec tes données — et surtout ce qu'il ne fait pas. Pas de jargon, pas de pièges.</p>
-
-  <div class="card">
-    <strong>En une phrase :</strong> Plein n'a pas de serveur qui stocke ta vie. Tes données vivent sur ton téléphone et dans ton iCloud à toi. On ne les voit pas.
-  </div>
-
-  <h2>Tes données t'appartiennent</h2>
-  <p>Tes véhicules, tes pleins, tes dépenses, tes trajets et tes rappels sont enregistrés sur ton téléphone. Si tu le souhaites, ils se synchronisent via ton compte iCloud personnel (Apple). Nous, l'équipe de Plein, n'y avons pas accès — il n'y a pas de base de données centrale qui garde tes informations.</p>
-
-  <h2>On ne sait pas qui tu es</h2>
-  <p>Pas de compte, pas d'inscription. On n'a ni ton nom, ni ton adresse e-mail, ni ton adresse IP. Tu télécharges Plein et tu l'utilises, c'est tout.</p>
-
-  <h2>Pas de pub. Pas de pistage.</h2>
-  <p>Aucune publicité dans Plein, et donc aucun identifiant publicitaire collecté. On ne te suit pas d'une app à l'autre ni sur le web.</p>
-
-  <h2>Et pas de « statistiques » cachées non plus</h2>
-  <p>Beaucoup d'apps ajoutent des outils d'analyse pour suivre comment tu les utilises. Plein n'en a <strong>aucun</strong> : pas de Google Firebase, pas d'Analytics, pas de Crashlytics, rien. On ne reçoit aucune statistique sur ton usage de l'app.</p>
-
-  <h2>Tes photos de tickets restent chez toi</h2>
-  <p>Les photos de tickets et de factures que tu ajoutes restent sur ton téléphone et dans ton iCloud. Elles ne sont envoyées nulle part.</p>
-
-  <h2>Le scan de tickets, concrètement</h2>
-  <p>Plein lit tes tickets directement sur l'appareil. Si la lecture est incomplète — et seulement si tu n'as pas désactivé l'option dans les Réglages — Plein peut envoyer le <strong>texte</strong> lu (jamais la photo) à un service d'intelligence artificielle (Google Gemini, via notre relais sécurisé) pour en déduire la date, le montant, la station… Tu peux couper cette option quand tu veux.</p>
-
-  <h2>Ta position sert à deux choses</h2>
-  <p>Trouver les stations-service proches, et enregistrer tes trajets (y compris en arrière-plan pendant un trajet, pour ton barème kilométrique). Tes positions restent sur ton téléphone et dans ton iCloud. Pour te montrer les prix autour de toi, on envoie seulement des coordonnées approximatives aux bases de prix publiques — jamais ton identité.</p>
-
-  <h2>Les prix viennent de sources publiques</h2>
-  <p>Plein récupère les prix des carburants dans des bases de données publiques officielles (administrations de France, Espagne, Italie, Autriche, Allemagne, Royaume-Uni, Luxembourg) et les caractéristiques des véhicules auprès de l'ADEME. On leur transmet une position approximative ou un modèle de voiture — rien sur toi personnellement.</p>
-
-  <h2>Ton abonnement</h2>
-  <p>L'abonnement Premium passe par RevenueCat et par l'App Store d'Apple, qui gèrent l'achat et le paiement. On ne reçoit ni ton nom, ni ton e-mail, ni ta carte bancaire. (RevenueCat et Google sont situés aux États-Unis, où ces données techniques sont traitées.)</p>
-
-  <h2>Tu gardes le contrôle</h2>
-  <p>Tu peux consulter, modifier ou supprimer tes données dans l'app à tout moment. Supprime l'application et sa copie iCloud, et il ne reste plus rien. Tu disposes aussi des droits prévus par le RGPD (accès, rectification, suppression, portabilité, opposition) — écris-nous et on s'en occupe. Tu peux également saisir la CNIL (<a href="https://www.cnil.fr">cnil.fr</a>).</p>
-
-  <h2>Les plus jeunes</h2>
-  <p>Plein n'est pas destinée aux moins de 15 ans et ne collecte pas sciemment leurs données.</p>
-
-  <h2>Si ça change</h2>
-  <p>Si cette politique évolue, la date en haut de page sera mise à jour.</p>
-
-  <footer>
-    Une question sur tes données ? Écris-nous : <a href="mailto:contact@getplein.com">contact@getplein.com</a>
-  </footer>
+<h1>Politique de confidentialité — Plein</h1>
+<p>Dernière mise à jour : 8 septembre 2026. Les nouveaux choix de consentement et la suppression de compte sont proposés à partir de Plein 1.4.1.</p>
+<p>Plein utilise les données nécessaires au suivi des véhicules, aux recherches de stations et aux services décrits ci-dessous. Cette politique distingue les données personnelles conservées dans ton iCloud et celles traitées par les services de Plein.</p>
+<h2>Données de véhicule et synchronisation
+Tes véhicules, pleins, dépenses, rappels, trajets, documents et photos sont conservés sur ton appareil. Les modèles compatibles se synchronisent dans ton compte iCloud personnel lorsqu’il est disponible. Nous n’avons pas accès au contenu de cette base CloudKit privée. Les sauvegardes ZIP de Plein comprennent les véhicules, pleins, dépenses, rappels et photos ; les trajets et documents disposent d’exports séparés.</h2>
+<h2>Localisation et recherches
+Avec ton autorisation iOS, Plein utilise ta position précise pour chercher des stations-service et bornes à proximité. Les coordonnées sont transmises aux fournisseurs concernés ou à notre relais Cloudflare ; les réponses peuvent être mises en cache. Les positions des trajets sont enregistrées dans ta base privée, y compris en arrière-plan pendant un enregistrement autorisé. Tu peux modifier les autorisations dans les Réglages iOS.</h2>
+<h2>Tickets et saisie assistée
+La reconnaissance de l’image s’effectue sur l’appareil. Après ton accord dans l’app, l’assistance IA facultative transmet du texte reconnu sur un ticket ou saisi par toi à Google Gemini via notre relais Cloudflare. Ce texte peut contenir les informations présentes sur le ticket. La photo n’est pas transmise à Gemini. L’option de complément IA du scan est réglable dans l’app. Vérifie les champs avant de les enregistrer.</h2>
+<h2>Signalements de bornes
+Lors d’un signalement, nous recevons l’identifiant de la borne, son état, l’heure et un identifiant aléatoire de l’installation. Ces signalements sont conservés jusqu’à sept jours. Les autres utilisateurs voient l’état et l’heure ; l’identifiant d’installation n’apparaît pas dans la réponse publique.</h2>
+<h2>Compte facultatif
+La connexion Apple ou Google est facultative et indépendante de la synchronisation iCloud. Le jeton du fournisseur sert à vérifier ton identité. Notre serveur conserve l’identifiant attribué par ce fournisseur et la date de création du compte. Les jetons peuvent contenir des informations de profil ; le serveur ne conserve pas de champ nom ou e-mail dans la fiche de compte. Le compte reste conservé jusqu’à sa suppression. La fonction de suppression dans l’app demande une vérification d’identité et supprime cette fiche ; pour Apple, elle révoque aussi l’autorisation via Apple. Tes données de véhicule privées restent dans ton appareil et ton iCloud.</h2>
+<h2>Abonnements
+Apple gère les paiements. RevenueCat traite l’identifiant technique du client, les produits achetés et l’état des abonnements afin d’activer et restaurer l’accès. Plein ne reçoit pas les coordonnées de ta carte bancaire. La suppression du compte Plein ne résilie pas l’abonnement Apple ; un lien vers la gestion des abonnements est présenté dans le parcours de suppression.</h2>
+<h2>Statistiques d’utilisation
+PostHog, configuré sur son service européen, reçoit un identifiant d’installation et des événements d’utilisation : ouverture de l’app, étapes de présentation, interactions avec certaines fonctions, connexion et achat. L’adresse IP peut fournir une localisation approximative. RevenueCat reçoit aussi certains attributs d’utilisation. Ces informations servent à comprendre l’utilisation et améliorer le fonctionnement. Elles ne constituent pas le contenu de ta base privée de véhicules.</h2>
+<h2>Attribution des recommandations
+InfluTo est utilisé pour relier les installations et les achats à nos campagnes de recommandation. À partir de Plein 1.4.1, l’app demande ton autorisation dans la fenêtre de suivi d’iOS avant de contacter InfluTo. Si tu acceptes, InfluTo reçoit un identifiant du vendeur Apple (IDFV), des informations d’appareil et de système, la résolution de l’écran, la langue, le fuseau horaire, les versions de l’app et du SDK, ainsi que l’adresse IP de la connexion. Son service rapproche ces signaux de ceux d’un clic sur un lien de recommandation. Un code d’attribution est associé au client RevenueCat pour mesurer les installations et les achats issus d’une campagne. Ce traitement peut relier des informations d’utilisation et d’achat à une recommandation provenant d’un autre site. Tu peux refuser le suivi sans perdre l’accès aux fonctions de Plein ou modifier ce choix dans les Réglages iOS. Les conditions de ton abonnement ne dépendent pas de ce choix.</h2>
+<h2>Prestataires et conservation
+Les principaux services utilisés sont Apple, Cloudflare, RevenueCat, PostHog et Google Gemini et InfluTo, ainsi que les fournisseurs de données de stations. Certains prestataires traitent des données hors de l’Espace économique européen selon leurs conditions et mécanismes de transfert. Les journaux techniques, données d’abonnement et d’analyse sont soumis aux durées et paramètres des services concernés ; ne pas présenter la suppression de l’app comme effaçant ces données de tous les prestataires.</h2>
+<h2>Tes choix et tes demandes
+Tu peux modifier les autorisations de localisation et de notifications dans iOS, retirer le consentement au partage de texte IA dans Plein, modifier le suivi autorisé dans iOS, gérer ton abonnement auprès d’Apple et exporter les données prises en charge. Pour les demandes concernant les données traitées par les services de Plein, contacte contact@getplein.com. Les droits applicables comprennent notamment l’accès, la rectification et la suppression ; tu peux aussi contacter la CNIL (https://www.cnil.fr).</h2>
+<h2>Contact
+contact@getplein.com
+</h2>
+<footer>Une question ? <a href="mailto:contact@getplein.com">contact@getplein.com</a></footer>
 </div>
 </body>
 </html>
